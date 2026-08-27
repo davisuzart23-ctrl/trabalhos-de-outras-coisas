@@ -1,4 +1,4 @@
-<form>
+<form id="form contato" action="/enviar" method="post">
 <center>
 <h1>Mambo Mambo omatsuri</h1>
 <IMG SRC=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl5cURWCyzoxjdt7AZVeie7ZvUb3Q91e_Z65He6vq7fA&s=10> <br>
@@ -6,16 +6,16 @@
 
 
 
-<input type="text" name="nome" placeholder="Seu nome">
+<input type="text" name="nome" placeholder="Seu nome" required>
 <br><br>
 
-<input type="email" name="email" placeholder="Seu@email,com">
+<input type="email" name="email" placeholder="Seu@email,com" required>
 <br><br>
 
-<input type="password" name="senha" placeholder="Sua senha">
+<input type="password" name="senha" placeholder="Sua senha" required>
 <br><br>
 
-<input type="date" name="idade" placeholder="Sua idade">
+<input type="date" name="idade" placeholder="Sua idade" required>
 <br><br>
 
 
@@ -23,7 +23,7 @@
 
 
 <textarea name="mensagem" rows="5"
-placeholder="Vc aceita fazer parte do clube da deusa mambo mambo"></textarea>
+placeholder="Vc aceita fazer parte do clube da deusa mambo mambo"></textarea required>
 
 <br><br>
 
